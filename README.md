@@ -6,7 +6,7 @@ Predict house sale prices using machine learning.
 
 ## Models Tried
 - Random Forest
-- XGBoost (coming soon)
+- XGBoost 
 
 ## Best Result
 Public Leaderboard Score: 0.14670
