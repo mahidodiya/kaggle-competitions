@@ -1,18 +1,15 @@
-# House Prices
-Kaggle Playground Competition
+# Kaggle Competitions
+This repository contains my solutions, experiments, and notes for Kaggle machine learning competitions.
 
-## Goal
-Predict house sale prices using machine learning.
+## Competitions
+| Competition  | Status    | Best Public Score |
+| ------------ | --------- | ----------------: |
+| House Prices | Completed |           0.14670 |
 
-## Models Tried
-- Random Forest
-- XGBoost 
+## Goals
+* Improve machine learning and feature engineering skills
+* Practice model evaluation and hyperparameter tuning
+* Track progress across Kaggle competitions
 
-## Best Result
-Public Leaderboard Score: 0.14670
-
-## What I Learned
-- Handling missing values
-- Feature engineering
-- Hyperparameter tuning
-- Cross-validation# kaggle-competitions
+## Libraries
+Python • Pandas • NumPy • Scikit-learn • Matplotlib • XGBoost • LightGBM
