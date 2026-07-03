@@ -4,7 +4,7 @@ This repository contains my solutions, experiments, and notes for Kaggle machine
 ## Competitions
 | Competition  | Status    | Best Public Score |
 | ------------ | --------- | ----------------: |
-| House Prices | Completed |           0.14670 |
+| House Prices | Completed |          0.12932 |
 
 ## Goals
 * Improve machine learning and feature engineering skills
