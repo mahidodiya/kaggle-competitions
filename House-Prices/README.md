@@ -1,27 +1,34 @@
+> 📌 First completed Kaggle competition focused on regression and end-to-end machine learning workflow.
+
 # House Prices: Advanced Regression Techniques
 
-A complete machine learning pipeline for the Kaggle House Prices competition, built from a simple baseline to a tuned XGBoost model.
+Machine learning solution for the Kaggle **House Prices** competition, focusing on building a complete regression pipeline from a baseline model to a tuned XGBoost model.
 
-## Overview
+## Results
 
-This project predicts house sale prices using regression models and demonstrates an end-to-end machine learning workflow, including data preprocessing, feature engineering, model evaluation, and hyperparameter tuning.
+* **Best Public Score:** **0.12932**
+* **Final Model:** Tuned XGBoost
 
-**Best Public Score:** **0.12932**
+## Project Highlights
 
-## Project Workflow
-
-* Baseline Random Forest model
-* Missing value handling
-* One-Hot Encoding
-* Log transformation of target variable
-* Train/Validation split
-* Cross Validation
+* Data preprocessing and missing value handling
+* One-Hot Encoding for categorical features
+* Log transformation of the target variable
+* Feature engineering
+* Cross-validation and RMSE evaluation
 * Hyperparameter tuning with RandomizedSearchCV
-* Feature Engineering
-* XGBoost model
-* Tuned XGBoost
+* Model development from Random Forest to XGBoost
 
-## Technologies
+## Models
+
+| Version | Model                            | Public Score |
+| ------- | -------------------------------- | -----------: |
+| V1      | Random Forest (Baseline)         |      0.14688 |
+| V8      | Feature Engineered Random Forest |      0.14456 |
+| V9      | XGBoost                          |      0.13352 |
+| V10     | Tuned XGBoost                    |  **0.12932** |
+
+## Tech Stack
 
 * Python
 * Pandas
@@ -29,28 +36,12 @@ This project predicts house sale prices using regression models and demonstrates
 * Scikit-learn
 * XGBoost
 * SciPy
+* Matplotlib
 
-## Key Concepts Learned
+## What I Learned
 
-* Data preprocessing
-* Feature engineering
-* Categorical encoding
-* Log transformation
-* Cross validation
-* RMSE evaluation
-* Hyperparameter tuning
-* Tree-based ensemble models
-* Gradient boosting with XGBoost
+This project helped me build a complete machine learning workflow, including preprocessing, feature engineering, model evaluation, hyperparameter tuning, and gradient boosting with XGBoost. It also reinforced the importance of validation and debugging in real-world machine learning projects.
 
-## Results
+## Competition
 
-| Model                            | Public Score |
-| -------------------------------- | -----------: |
-| Random Forest (Baseline)         |      0.14688 |
-| Feature Engineered Random Forest |      0.14456 |
-| XGBoost                          |      0.13352 |
-| Tuned XGBoost                    |  **0.12932** |
-
-## Kaggle Competition
-
-House Prices: Advanced Regression Techniques
+Kaggle: House Prices – Advanced Regression Techniques
